@@ -1,6 +1,6 @@
 body {
-    color: #4983da;
-    background-color: #c48e21;
+    color: #4F0202;
+    background-color: #ACC8E5;
     font-family: 'Playfair Display', serif;
     font-size: large;
     font-weight: 700;
@@ -17,11 +17,27 @@ header {
 
 #hero {
     text-align: center;
-    background-color: #8f6717;
+    background-color: #8198af;
     padding: 20px;
+    border:4px solid #350000;
 }
 
 #hero img {
     width:200px;
     height:200px;
+}
+
+#bio {
+    font-size: large;
+}
+
+footer {
+    text-align: center;
+    background-color: #8198af;
+    padding: 20px;
+    border:4px solid #350000;
+}
+
+#cars img {
+    border:2px dashed #350000;
 }
