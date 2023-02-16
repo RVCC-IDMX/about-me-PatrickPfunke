@@ -1,3 +1,25 @@
 body {
-    background-color: red;
+    color: #4983da;
+    background-color: #c48e21;
+    font-family: 'Playfair Display', serif;
+    font-size: large;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-style: bold;
+}
+
+header {
+    text-align:center;
+}
+
+#hero {
+    text-align: center;
+}
+
+#hero img {
+    width: 200px;
+    height: 200px:
 }
