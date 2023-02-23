@@ -77,3 +77,20 @@ footer {
 #gallery img {
     max-width: 100%;
 }
+
+/* lit section */
+
+#lit p::first-letter {
+    clear:both;
+    color:#2b0000;
+    font-size: 250%;
+    padding:0.5ex;
+    margin-right: .5ex;
+    font-weight: bold;
+    background-color: #8198af;
+    text-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+    border-bottom-left-radius: 1em;
+    float:left;
+    border:5px double black;
+}
