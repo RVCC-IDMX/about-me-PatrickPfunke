@@ -41,3 +41,26 @@ footer {
 #cars img {
     border:2px dashed #350000;
 }
+
+#hobbies {
+    text-align: center;
+}
+
+#hobbies ul {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#hobbies ul li {
+    text-align: left;
+}
+
+#hobbies ul li:nth-child(3n+1) {
+    color:blue;
+}
+#hobbies ul li:nth-child(3n+2) {
+    color: red;
+}
