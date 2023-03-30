@@ -168,6 +168,54 @@
 
         </article>
 
+        <section id="contact">
+            <h2>Reach out:</h2>
+
+            <form method="post">
+                <fieldset>
+                    <legend>Contact form</legend>
+                    <label for="name">Your Name:</label>
+                    <input id="name" name="name" type="text" placeholder="name" required="true">
+
+                    <br>
+                    <label for="email">Your Email:</label>
+                    <input id="email" name="email" type="email" placeholder="email" required="true">
+
+                    <br>
+                    <label for="phone">Your Phone:</label>
+                    <input id="phone" name="phone" type="tel" placeholder="phone" required="true">
+
+                    <br>
+                    <label for="type">Phone type:</label>
+                    <select id="type" name="type">
+                        <option>Select . . .</option>
+                        <option value="home">Home</option>
+                        <option value="cell">Cell</option>
+                        <option value="work">Work</option>
+                    </select>
+
+                    <br>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" placeholder="Input text . . ."></textarea>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Contact Back?</legend>
+                        <input id="yes" name="contactback" type="radio" checked="true" value="yes">
+                        <label for="yes">Contact me back.</label>
+                        <br>
+                        <input id="no" name="contactback" type="radio" value="no">
+                        <label for="no"> no thanks.</label>
+                    </fieldset>
+
+
+                    <br>
+                    <input type="submit">
+
+                </fieldset>
+            </form>
+        </section>
     </main>
 
     <footer>
