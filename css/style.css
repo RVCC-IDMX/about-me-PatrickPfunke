@@ -141,6 +141,8 @@ footer {
 }
 #contact fieldset fieldset {
     grid-template-columns: 30px auto;
+    margin-top:10px;
+    margin-bottom:10px;
 
 }
 /* media queries */
