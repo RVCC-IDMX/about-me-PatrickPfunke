@@ -106,6 +106,8 @@ figure.figurefx {
       -moz-transition: all 0.5s;
       -webkit-transition: all 0.5s;
       transition: all 0.5s;
+      border-bottom-right-radius: 2em;
+
   }
   
   figure.figurefx figcaption a {
@@ -140,9 +142,9 @@ figure.figurefx {
   }
   
   figure.pushup:hover figcaption{
-      -moz-transform: translate3d(0, -177%, 0); /* move caption up vertically to fully reveal caption */
-      -webkit-transform: translate3d(0, -177%, 0);
-      transform: translate3d(0, -177%, 0);
+      -moz-transform: translate3d(0, -100%, 0); /* move caption up vertically to fully reveal caption */
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
       -moz-transition: all 0.5s;
       -webkit-transition: all 0.5s;
       transition: all 0.5s;
