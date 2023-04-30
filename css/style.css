@@ -29,6 +29,10 @@ header {
  /* Biography */
 #bio {
     font-size: large;
+    text-align: center;
+}
+#bio p {
+    padding: 10px;
 }
 
 footer {
@@ -38,9 +42,6 @@ footer {
     border:4px solid #350000;
 }
 
-#cars img {
-    border:2px dashed #350000;
-}
 /* hobbies */
 #hobbies {
     
@@ -57,13 +58,11 @@ footer {
     text-align: left;
 }
 
-#hobbies ul li:nth-child(3n+1) {
-    color:blue;
+#hobbies ul li p {
+    background-color: #8198af;
+    padding: 10px;
+    border:2px solid #350000;
 }
-#hobbies ul li:nth-child(3n+2) {
-    color: red;
-}
-
 /* gallery */
 
 #gallery {
