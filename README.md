@@ -6,4 +6,4 @@
  - The color scheme I used was was a light blue background (#ACC8E5), and a dark red text color (#350000) This has a contrast ratio of 10.55:1.
  - Citations
     - Use on hovering effect with the image gallery
-        > https://makitweb.com/html-how-to-show-text-above-image-on-hover/#:~:text=Set%20visibility%3A%20hidden%20and%20opacity,visible%20and%20opacity%3A%200.7%3B%20.&text=You%20can%20change%20the%20position,bottom%20left%20right%20CSS%20properties.
+        > https://codepen.io/jhermansen/pen/YqEReZ
