@@ -73,7 +73,37 @@ footer {
 #gallery img {
     max-width: 100%;
 }
+/* The photo hover effect in the gallery section */
+.photohover {
+    position:relative;
+    float:left;
+    margin-right:10px;
+}
+.photohover div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
 
+.photohover:hover{
+    cursor: pointer;
+}
+
+.photohover:hover div{
+    width: 94.3%;
+    height: 94.5%;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
 /* lit section */
 
 #lit p::first-letter {
