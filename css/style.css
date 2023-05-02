@@ -10,7 +10,42 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-style: bold;
 }
-
+.nav__menu {
+    font-weight: 700;
+    font-size: x-large;
+}
+/* Hamburger menu */
+.nav__toggle {
+    position:absolute;
+    cursor:pointer;
+    margin:1.5rem 1.5rem;
+    right:0;
+}
+.nav__toggle svg {
+    width:1.5rem;
+}
+.nav__checkbox {
+    display:none;
+}
+.nav__menu {
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+    margin:1rem;
+}
+.nav__menu li {
+    list-style: none;
+    display:none;
+}
+.nav__menu li a {
+    text-decoration: none;
+    color:inherit;
+    font-size: 1.2rem;
+}
+#nav__checkbox:checked ~ ul.nav__menu li{
+    display:block;
+}
 header {
     text-align:center;
 }
@@ -181,6 +216,10 @@ figure.figurefx {
     margin: 3em;
 }
 
+#lit h2 {
+    text-align: center;
+}
+
 /* contact form */
 
 #contact {
@@ -237,6 +276,12 @@ figure.figurefx {
     }
     
 }
+@media screen and (max-width:559px){
+    .nav__menu {  
+        margin-left: 15rem;
+        margin-top:3rem;
+    }
+}
 @media screen and (min-width:300px) {
     #gallery figure {
         display:grid;
@@ -253,7 +298,17 @@ figure.figurefx {
     text-align:justify;
     }
 } 
-
+@media only screen and (min-width:560px){
+    .nav__toggle {
+        display:none;
+    }
+    .nav__menu {
+        flex-direction: row;
+    }
+    .nav__menu li {
+        display:block;
+    }
+}
 @media screen and (min-width:1200px) {
     #gallery {
         display:grid;

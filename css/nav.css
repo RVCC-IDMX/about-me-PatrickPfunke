@@ -20,11 +20,11 @@ main {
 
 /* navbar */
 
-.navbar {
+.nav {
     background-color: #2f4b66;
     color:whitesmoke;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
